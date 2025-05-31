@@ -1,0 +1,16 @@
+
+Análisis de los Últimos Resultados
+No Diabetes (Clase 0):
+Precisión: 95.97% (sigue siendo muy buena)
+Recall: 65.34% (ha mejorado respecto al 57.68% anterior, lo que significa menos falsos negativos en la clase mayoritaria)
+F1-Score: 77.74%
+Diabetes (Clase 1):
+Precisión: 28.47% (¡esto es una mejora significativa! Era 25.85%. Menos falsos positivos para diabetes)
+Recall: 83.42% (ha bajado un poco del 89.18%, pero sigue siendo muy alto, lo que es crucial para la detección)
+F1-Score: 42.45% (¡la métrica más importante para la clase minoritaria mejoró considerablemente!)
+
+Conclusión: Con [1.0, 1.5], se ha encontrado un punto de equilibrio mucho mejor. La precisión de la clase
+"Diabetes" está mejorando (lo que significa menos falsas alarmas), mientras que el recall sigue siendo muy
+fuerte (todavía detectas a la gran mayoría de los diabéticos reales). El F1-score para la clase "Diabetes"
+también ha subido, lo que confirma un mejor balance general.
+

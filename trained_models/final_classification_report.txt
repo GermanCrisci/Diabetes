@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+ No Diabetes       0.98      0.41      0.58     42741
+    Diabetes       0.21      0.96      0.35      7069
+
+    accuracy                           0.49     49810
+   macro avg       0.60      0.69      0.47     49810
+weighted avg       0.87      0.49      0.55     49810

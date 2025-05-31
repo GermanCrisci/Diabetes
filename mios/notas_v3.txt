@@ -1,0 +1,14 @@
+El ajuste manual de los pesos de clase funcionó: la precisión de la clase "No Diabetes" subió, y el recall de "Diabetes" se mantuvo alto (aunque su precisión sigue siendo el punto débil).
+
+Análisis de los Nuevos Resultados
+Con los últimos ajustes, tu modelo tiene este rendimiento:
+
+No Diabetes (Clase 0):
+Precisión: 96.99% (excelente, el modelo es muy bueno cuando dice que alguien NO tiene diabetes)
+Recall: 57.68% (ha bajado más, lo que significa que de todas las personas sin diabetes, predice correctamente un poco más de la mitad)
+F1-Score: 72.34%
+Diabetes (Clase 1):
+Precisión: 25.85% (¡sigue siendo baja! Aunque es un poco mejor que el 21.22% anterior, sigue significando muchos falsos positivos)
+Recall: 89.18% (muy alto, lo que es bueno para no perder casos reales de diabetes)
+F1-Score: 40.08%
+En resumen, el modelo sigue estando muy optimizado para detectar a la mayoría de los diabéticos (alto recall), pero a costa de una baja precisión, generando muchas falsas alarmas.
